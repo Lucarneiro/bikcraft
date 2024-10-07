@@ -1,3 +1,8 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
 .parceiros h2 {
   margin-bottom: 60px;
 }
@@ -6,7 +11,7 @@
   max-width: 1400px;
   padding: 0 20px;
   display: grid;
-  grid-template-columns: repeat (4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
 }
 
@@ -16,7 +21,8 @@
   border-left: 2px solid var(--cor-2);
 }
 
-.parceiros li:first-child .parceiros li:nth-child(5) {
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
   border-left: none;
 }
 
